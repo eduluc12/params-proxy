@@ -1,7 +1,7 @@
 {
   "name": "tcpproxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a proxy with the ability to custom connection",
   "main": "index.js",
   "scripts": {
     "watch": "ts-node-dev --respawn -- src/main.ts",
