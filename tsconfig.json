@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "./build/lib",
+      "sourceMap": true,
+      "rootDir": "./src",
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noUnusedLocals": false,
+      "downlevelIteration": true,
+      "declaration": true,
+      "lib": [ "es6", "dom" ]
+    },
+    "include": [
+      
+      "./src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
